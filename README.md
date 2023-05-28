@@ -68,6 +68,64 @@ This will be the set of all X in R plus the 20 is less three or equal to X and l
 ## Sigma Notation - Introduction to Summation
 we often use for sigma this big Greek letter, sigma, which kind of looks like a big pointy S. And as always in these lectures, the point is not necessarily to bombard you with computations or to judge you on right or wrong answers. But simply to demystify and explain notation, which would otherwise be mystifying. So what we're going to do in this lecture is work through three examples. Each one of them an example of sigma notation, each one of these things here. The sum from i = 1 to 4 of i squared, the sum from i = 1 to 5 of 2i + 3 and the sum from j = 3 to 7 of j over 2. These are all just fancy ways of writing numbers. In fact, tell you the answers in advance, this first number equals 30, the second number equals 45 and this last number equals 25 halves. How on Earth did I know that? Point of this lecture is to learn why that's true. Let's dive in to do the first one. We're going to compute the sum from i = 1 to 4 of i squared. What I'm going to do is just do this myself first, and then walk you through and unpack, how I did that. Okay, so the sum from i = 1 to 4 of i squared is equal to 1 squared + 2 squared + 3 squared + 4 squared. Okay, so suppose someone paid me to do this problem, I'd consider myself done. I've worked it out, I've translated it from sigma notation to something someone who knows arithmetic could do. A person that is really a stickler for details, they're going to say well keep going, but I'm going to say, maybe you need to pay me more money. After we're done with that negotiation, we'll say, okay, from here, it's arithmetic, that's just equal to dot dot dot. The dots covering up the fact that I've done this in advance. This is equal to 30, the answer we saw before. But the real point of today's lecture is to understand this first equals sign. How on Earth did I know that this funny symbol, the sum from i = 1 to 4 of i squared is equal to 1 squared + 2 squared + 3 squared + 4 squared? Okay, so let's walk through that. The first thing to realize looking at this symbol is there's a bunch of things. First, there's a counter in here, there's a symbol in here i squared. That same person walking out to me on the street is pretty annoying by now says, I'll give you ten bucks if you tell me what i squared is. No deal, it's not really a fair question. I know what i is, but actually I had some hints. Down here at the bottom, I know how to start my range of i. I know that I should start from i = 1, and at the top, I know that I should finish when i is 4. Okay, so let's do some scratch work and work that out on the side. Here I have i = 1, here I have i = 2, here I have i = 3 and here I have i = 4. So you'll notice that starting range, starting from 1, that finishing range ending at 4. And actually there's something here that's a little unfair, nothing in the symbol tells me that I count by one, going from the bottom of my range to the top of my range. That's okay, that's sort of a cultural agreement. You start from the low i, you end at the top i, and you count by one. Okay, fine, so what do we do? To each one of these i's we do what this thing in the middle tells us to do. In this case, this thing in the middle, very bossy, tells us to square i. So if i = 1 then i squared = 1 squared. If i = 2, then i squared = 2 squared. If i = 3, then i squared = 3 squared. I think you get the hang of it. i = 4, and i squared = 4 squared. Okay, we've done the scratch work on the side. What do we do next? Well sigma, What you ought to think about this is equal to sum. Meaning, we take all of these answers here and we add them up. And that's how we get what we get up here. We've computed on the side that 1i = 1i squared = 1 squared and so on, and then we add them all up and get our answer. For those of you who are sort of business minded you can think of this as a process. Which can be broken up into parallel processes undertaken by different workers. So one worker can compute what 1i = 1. One worker can do 1i = 2. One might i = 3. One might i = 4, doesn't really matter when they do them. They do them at the same time in parallel. The end of the day, they compare their answers. The last worker adds them all up, and we get the answer we get over here, or over here<br>
 
+## Sigma Notation : Simplification Rule:
+
+Okay, welcome back everyone. Last video we did some elementary examples of sigma notation. Today we're going to make it a little bit more complicated, and we're going to go over some rules, For manipulating,
+<br>
+Slash simplifying, Or making for complicated, if you like, sigma notation.
+<br>
+I'm going to start with our first rule, it’s just an example. Last time, remember, that we worked through that the sum from i=1 to 4 of i squared was 30. But now we're going to give you a different problem, which when you think about it is not going to be too different. The new problem is going to ask you the sum from i=1 to 4 of 3i squared. Now in fact, we could work this out directly, just as we did before. Make our little scratch work with our i and add it up. But let's work through this just enough so that we can see the pattern, see the point of this example. So if we work this out, this is equal to 3 times (1) squared + 3 times (2) squared + 3 times (3) squared + 3 times (4) squared.
+<br>
+Now again, to the guy who's paying us to do this, we're done, you can make that into a number. Let's do that a little bit further, just for our own purposes. If we use some stuff from elementary mathematics, namely something you may remember as the distributive property, multiplication over addition, let's pull out the 3. This Is equal to 3 times [1 squared + 2 squared + 3 squared + 4 squared].
+<br>
+That's equal to 3 times our old friend, which we're now getting pretty bored of, as we do with old friends, the sum from i=1 to 4 of i squared.
+<br>
+So
+I started off with an expression, the sum from i=1 to something. And internal here to the thing inside the sigma notation was an expression 3i squared that had a constant in it, namely 3. I can pull that constant outside and get that the sum from i=1 to 4 of 3i squared is the same thing as 3 times the same exact expression, but without the 3 sitting there.
+<br>
+Turns out this is a general rule.
+
+Let's try one more example, if I did the sum,
+
+From r=4 to 25 of 18 r cubed, I really don't want to work that out. But I can tell you this is the same thing as 18 times the sum from r=4 to 25 of r cubed, whatever on earth that is.
+<br>
+And this is always true.
+
+Whenever you have an expression with a constant inside the sigma, you can pull it outside, and just then evaluate it.
+
+Why is this true? There's something from elementary mathematics which you may or may not have heard called the distributive property.
+
+Namely, if you have A times (b + c) that's the same thing Ab + Ac. And all we're doing is we're taking this expression and we're doing it over and over again with the sigma notation.
+<br>
+Okay, so that's lesson number one, that's one way of simplifying sigma notation expressions.
+Play video starting at :3:50 and follow transcript3:50
+Let's give you a new problem.
+
+The sum from i=1 to 4, and internal here we're going to have i squared plus 2i.
+Play video starting at :4:3 and follow transcript4:03
+So let's just work this out directly. So this is equal to 1 squared + 2 times (1) + 2 squared plus 2 times (2) + 3 squared + 2 times (3) + 4 squared + 2 times (4). And again we could say we're done, down tools, that's it. But let's break this up for our own purposes. Notice in this sum we have terms that look like two different things. One looks like things squared, like these ones. And one looks like two times things, like these. Let's break those up and write those separately.
+<br>
+This is the same thing as being equal to (1 squared + 2 squared + 3 squared + 4 squared) + (2 times (1) + 2 times (2) + 2 times (3) + 2 times (4)). Let's pause for a second and remember why that's so. Basically it's so because I could add numbers in any order I want. Someone told me to add them the way I have up here, but I can add them the way I have down here, I'm just shuffling them around.
+<br>
+Why did I do that? Well let's recognize, what's this guy here?
+
+That's equal to our old friend, the sum from i=1 to 4 of i squared.
+
+Fine, what's this guy here? That's equal to a new friend, that's equal to the sum from i=1 to 4 of 2 times i.
+
+Notice we have a rule here, I started off with the summation and then there's something inside the summation which was broken up into two different things, i squared + 2i. I can fragment that, break that up into two different summations, should I want to.
+<br>
+Why is that true? It's true because when you add up things in any order you want.
+Play video starting at :6:4 and follow transcript6:04
+Okay, let's do our last rule here. This one seems really silly and really simple, but it makes you think about it a little bit. Let me give you the sum from k=1 to 10 of 5. Seems like a trick question. Notice the thing in the middle has no dependence on k. What do we do? This is almost convention, this is equal to, each time I evaluate something I'm going to evaluate it from k=1 to 10. But I don't do anything with k, I just write down what’s in there. This is equal to 5 + 5 + 5 +, plus, plus, dot, dot, dot, dot, + 5. How many of them? 10 of them.
+<br>
+So this is equal to 10 times 5 = 50.
+
+The general rule here, whenever you’re summing up a constant, in this case it's 5, but it could be anything. You just add up that constant the number of times you're supposed to do. So for example, the sum from r=1 to 7 of 8 would be 8 + 8 + itself 7 times.
+Play video starting at :7:17 and follow transcript7:17
+This is the same thing as 8 times 7 or 56.
+
+
 
 
 
